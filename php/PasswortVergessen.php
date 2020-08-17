@@ -29,15 +29,15 @@ if (isset($result)){
         //Server settings
         $mail->SMTPDebug = 1;                      // Enable verbose debug output
         $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                  // Set the SMTP server to send through
+        $mail->Host       = 'xxxxxxxxx';                  // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'kundenportalportfolio@googlemail.com';      // SMTP username
-        $mail->Password   = 'portfolioDHBW19';                      // SMTP password
+        $mail->Username   = 'xxxxxxxxx';      // SMTP username
+        $mail->Password   = 'xxxxxxxxx';                      // SMTP password
         $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-        $mail->Port       = 587;                                    // TCP port to connect to
+        $mail->Port       = 000;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('kundenportalportfolio@googlemail.com', 'Kundenportal');
+        $mail->setFrom('xxxxxxxxx', 'xxxxxxxxx');
         $mail->addAddress($result['emailadresse'], $result['benutzername']);     // Add a recipient
 
         // Content
