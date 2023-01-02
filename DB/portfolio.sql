@@ -43,9 +43,9 @@ CREATE TABLE `benutzer` (
 --
 
 INSERT INTO `benutzer` (`kundenID`, `vorname`, `nachname`, `benutzername`, `emailadresse`, `passwort`, `iban`) VALUES
-(1, 'Robin', 'Kaltenbach', 'Kalti', 'robin@gmx.de', 'hallo123', 'DE4698'),
-(2, 'Julian', 'Geissendoerfer', 'Jules', 'julian@gmx.de', 'hallo456', 'DE1345'),
-(3, 'Dominik', 'Eichhorn', 'Domieyyy', 'Domi@gmx.de', 'hallo789', 'DE456');
+(1, 'xxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx'),
+(2, 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx'),
+(3, 'xxxxxxx', 'xxxxxxx', 'xxxxxxx', 'xxxxxxx@gmx.de', 'xxxxxxx', 'xxxxxxx');
 
 --
 -- Indizes der exportierten Tabellen
